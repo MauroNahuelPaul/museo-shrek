@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: url(px/shrekfamily.png);
+  background-color: #42280F;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+* {
+  margin: 0;
+  text-align: center;
+  font-family: 'Shrek', arial;
+  color: #5D9D00;
+  font-size: 35px;
+  text-shadow: 4px 4px 4px #605a36;
+}
+
+a {
+  color: #8D9D00;
+}
+
+p {
+  vertical-align: bottom;
+  text-align: center;
+  font-family: monospace;
+  font-size: large;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+  height: 142px; /* .push must be the same height as .footer */
+}
